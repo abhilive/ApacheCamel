@@ -3,7 +3,7 @@ package com.abhilive.camel_microservice_a.components;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ActiveMQSenderRouter extends RouteBuilder {
     @Override
     public void configure() throws Exception {
